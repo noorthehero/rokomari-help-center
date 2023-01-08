@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+#main{
+    background: #f5f5f5;
+}
+.menubar .menu_list{
+    background: #ECECEC;
+}
+.menubar .menu_list{
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+
+}
+.menubar .menu_list li{
+    padding: 7px 0px 7px 25px;
+    list-style: none;
+}
+.menubar .menu_list li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #333;
+    line-height: 16px;
+    text-align: center;
+}
+.menubar .menu_list li a:hover{
+   color: #0397D3;
+}
+.main_menu {
+    display: flex;
+    padding: 10px 100px;
+    background: #fff;
+}
+.logo{
+    flex-basis: 18%;
+}
+.search{
+    flex-basis: 57%;
+    
+}
+.menu_icon{
+    flex-basis: 25%;
+    text-align: right; 
+}
+.logo img{
+    height: 40px;
+}
+.search input{
+    height: 46px;
+    padding: 0px 10px;
+    width: 85%;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(172, 172, 172, 0.25);
+    border-radius: 2px;
+    border-bottom: 2px solid #FDC006;
+}
+.search input:focus{
+    outline: none;
+}
+.search button{
+    padding: 11px 21px;
+    vertical-align: middle;
+    background: #0397D3;
+    border-radius: 0 2px 2px 0;
+    border: none;
+}
+.search button img{
+    vertical-align: middle;
+    width: 24px;
+}
+.menu_icon ul li{
+    display: inline-block;
+}
+.menu_icon ul li.trolly{
+    margin-right: 25px;
+    vertical-align: middle;
+}
+.menu_icon ul li.signin{
+    padding: 10px 18px 9px 17px;
+    border: 1px solid #0397D3;
+    border-radius: 3px;
+}
+.menu_icon ul li.signin a{
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 19px;
+    color: #0397D3;
+}
+.menu_icon .mobile{
+    padding-top: 10px;
+    
+}
+.menu_icon .mobile img{
+    vertical-align: middle;
+    height: 30px;
+}
+/*====================
+        Header
+========================*/
+
+
+/*=======================
+ footer
+=======================*/
+.main_footer{
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.main_footer img{
+    margin-right: 44px;
+}
+.hot ul li{
+    padding-bottom: 14px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 20px;
+    text-align: left;
+}
+/*=================
+    copyright
+======================*/
+.copyright{
+    padding: 17px 0px;
+    text-align: center;
+}

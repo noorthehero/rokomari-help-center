@@ -1,0 +1,202 @@
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 320px){
+    .main_menu {
+        padding: 10px 10px;
+    }
+    .menu_list, .main_menu .search, .menu_icon ul li{
+        display: none;
+    }
+    
+    .menu_icon .mobile{
+        display: inline; 
+    }
+    .logo {
+        flex-basis: 90%;
+    }
+    
+    .help, .top, .browse {
+        padding: 15px 10px;
+    }
+    .main_footer img {
+        margin-right: 20px;
+    }
+    .left_header {
+        margin-left: 0px;
+    }
+    .maches a.view_all {
+        padding: 14px 51px 11px 51px;
+        left: 21%; 
+    }
+    .body_back .is img {
+        top: 30px;
+        right: -6px;
+    }
+    .hot {
+        margin: 25px 10px 0px 10px;
+        text-align: center;
+    }
+    .main_menu .menu_icon {
+        flex-basis: 48%;
+        text-align-last: auto;
+    }
+    .main_menu .logo{
+        flex-basis: 48%;
+        text-align: left;
+    }
+    
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 360px){
+    
+    
+}
+   
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 425px){
+    .header .browse .bcategory .cg {
+        flex-basis: calc(50% - 24px);
+    }
+    .header .top .description_query .qpoint {
+        columns: 2;
+    }
+}
+
+
+/*==============================
+    Mobile
+===============================*/
+@media (min-width: 600px){
+    .menu_icon .mobile{
+        display: none; 
+    }
+    .menu_list{
+        display: flex;
+        justify-content: flex-end;
+        background: #f5f5f5;
+    }
+    .main_menu .search, .menu_icon ul li{
+        display: inline;
+    }
+    .logo {
+        flex-basis: 23%;
+    }
+    .search {
+        flex-basis: 57%;
+    }
+    .search button {
+        padding: 8px 5px;
+    }
+    .search input {
+        height: 47px;
+        padding: 4px 5px;
+        width: 80%;
+        margin-top: 10px;
+    }
+    .main_menu .menu_icon {
+        flex-basis: 20%;
+        text-align: right;
+        margin-top: 12px;
+    }
+    .main_menu .logo{
+        flex-basis: 18%;
+        text-align: left;
+    }
+    .header .browse .bcategory .cg {
+        flex-basis: calc(33% - 24px);
+    }
+}
+
+/*==============================
+    Mobile
+===============================*/
+@media  (min-width: 768px){
+    .logo {
+        flex-basis: 17%;
+    }
+    .search {
+        flex-basis: 62%;
+    }
+    .menu_icon{
+        margin-top: 12px;
+    }
+    .header .browse .bcategory .cg {
+        flex-basis: calc(25% - 24px);
+    }
+    .header .top .description_query .qpoint {
+        columns: 3;
+    }
+}
+
+
+/*==============================
+    Laptop
+===============================*/
+@media  (min-width: 992px){
+    .logo {
+        flex-basis: 14%;
+    }
+    .search {
+        flex-basis: 65%;
+    }
+    .menu_icon{
+        flex-basis: 20%;
+        margin-top: 12px;
+    }
+    .fea_box a{
+        left: 43%;
+    }
+    .maches a.view_all {
+        left: 41%; 
+    }
+}
+
+
+
+/*==============================
+    Tab
+===============================*/
+@media (min-width: 1200px){
+    .main_menu {
+        padding: 10px 100px;
+    }
+    
+    .logo{
+        flex-basis: 18%;
+    }
+    .search{
+        flex-basis: 67%;
+        
+    }
+    .menu_icon{
+        flex-basis: 15%;
+    }
+    .search input{
+        height: 47px;
+        padding: 0px 10px;
+        width: 88%;
+    }
+    .search input:focus{
+        outline: none;
+    }
+    .search button{
+    }
+    .help, .top, .browse {
+        padding: 30px 100px;
+    }
+}
+
+/*==============================
+Desktop
+===============================*/
+@media (min-width: 1400px){
+    
+    
+}
